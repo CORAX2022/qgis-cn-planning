@@ -1,5 +1,8 @@
 # PR: docs/project-baseline
 
+- Pull request: [#10](https://github.com/CORAX2022/qgis-cn-planning/pull/10)
+- Status: open for review; not merged.
+
 ## Title
 
 `docs: establish project baseline, standards, and v0.1.0 plan`
