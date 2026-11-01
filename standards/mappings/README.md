@@ -20,6 +20,10 @@ This directory links extracted rules to future QGIS resources and records templa
 | R-SD-011 | Layer-order preset | planned | Need the selected map type |
 | R-SD-012 | Project CRS and metadata | planned | None for the rule; data CRS must be checked per project |
 | R-CJJ-017, R-SD-014 | Land-use colour and legend | planned | Current classification and colour basis not yet extracted |
+| R-BJV-002 | Village drawing title block fields | planned | Field list known; title-block dimensions still missing |
+| R-BJV-003–R-BJV-006 | Village drawing set and layer checklist | planned | Which of the three required maps is first is undecided |
+| R-BJV-007 | Village layer-prefix preset | planned | References DB11/996-2013 and DB11/T 997-2013; current status to verify |
+| R-BJV-008, R-BJV-009 | Village land-use and five-line colour palettes | planned | 2019 RGB values are legacy until current editions confirm them |
 
 ## Template candidates
 

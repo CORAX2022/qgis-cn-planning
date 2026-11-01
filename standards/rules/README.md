@@ -6,6 +6,7 @@ Each file records rules extracted from a text that was actually obtained and rea
 |---|---|---|---|---|
 | `CJJ-T-97-2003.md` | `CN-CJJ-97-2003` | CJJ/T 97-2003 | Full HTML text, university official page | General drawing, title, boundary, north arrow, scale, legend, signature, text, sheet sizes, ordering |
 | `SD-MAP-2019.md` | `SD-MAP-2019` | 2019-10 draft | Full PDF, local reading copy | Figure name, border, locator, north arrow, scale bar, legend, signature, paper, fonts, layer order, CRS, scale selection |
+| `BJ-VILLAGE-GUIDE-2019.md` | `BJ-VILLAGE-GUIDE-2019` | 2019 trial | Full official PDF, local reading copy | Required labels, drawing set, content, layer prefixes, land-use and five-line RGB values |
 
 ## Rules not yet extracted
 
@@ -13,6 +14,7 @@ Each file records rules extracted from a text that was actually obtained and rea
 - `BJ-DB11-1947-2021` — Beijing zoning plan; official link only, text not read.
 - `BJ-DB11-1948-2021` — Beijing detailed plan; catalogue only.
 - `BJ-DB11-1949-2021` — Beijing township plan; catalogue only.
+- `BJ-HIST-BUILDING-2024` — Beijing historic-building work rules; local copy obtained but not yet extracted into drawing rules.
 - `CN-HERITAGE-REG-2021` — heritage law; official link only; legal terminology, not a drawing standard.
 - `CN-HERITAGE-STD-2018` — heritage conservation planning standard; catalogue only.
 - `CN-LANDUSE-2023` — classification guide; official link only; code list not yet imported.

@@ -95,6 +95,8 @@ At this baseline, the project has full-text access to:
 
 - CJJ/T 97-2003《城市规划制图标准》— HTML full text via a university official page.
 - 山东省市县国土空间总体规划制图指南（征求意见稿）— PDF, local reading copy.
+- 北京市村庄规划导则（试行）— official PDF, local reading copy; 2019 edition, revision status to verify.
+- 北京市历史建筑规划管理工作规程（试行）— official PDF, local reading copy; first-pass reading only.
 
 `GB/T 10609.1-2008` is recorded as a paid metadata-only standard. Its exact title-block dimensions are **not** extracted until a lawful copy is obtained.
 
