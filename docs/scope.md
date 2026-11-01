@@ -114,5 +114,5 @@ The release also needs a manifest, checksums, tested QGIS versions, and a change
 - Which Beijing profile elements are mandatory versus illustrative.
 - Whether sample data can be public or must be synthetic.
 - How to handle QGIS 3.40 LTR and 4.x format differences.
-- **First template:** drawing type, paper size, orientation, and information layout are deliberately undecided until the standards evidence and user choice are recorded.
-- **Title block:** the exact dimensions depend on a title-block standard that has not yet been obtained in full; do not invent dimensions.
+- **First template:** selected as a Beijing control-plan 图则, produced at A3 and A2 landscape. The exact title-bar field widths and information-column proportions remain a project-design decision pending review.
+- **Title block:** the exact dimensions depend on a title-block standard that has not yet been obtained in full; do not invent dimensions. The observed Beijing 图则 use a top title bar, not a GB/T 10609.1 bottom title block.

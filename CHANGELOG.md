@@ -9,6 +9,7 @@ The format follows [Keep a Changelog](https://keepachangelog.com/en/1.1.0/), and
 ### Added
 
 - Initial repository baseline: README, `.gitignore`, contribution rules, licence-status record, third-party notice, scope, standards baseline, user-needs background note, release policy, issue templates, and pull-request template.
+- First template family: Beijing control-plan 图则 layout shells at A3 and A2, with title bar, main map, locator, legend, three insets, and an A2 indicator-table placeholder.
 - Draft v0.1.0 milestone and issue plan.
 
 ### Changed

@@ -1,6 +1,6 @@
 # First-template candidates
 
-No template is selected in this round. These are candidates for a later依据卡 and user decision. Paper size, orientation, and information layout are deliberately not fixed.
+**Selected by the project owner on 2026-11-01:** Candidate 1, Beijing control-plan 图则, at **A3 and A2 landscape**. Layout shells are in [`templates/beijing/`](../../templates/beijing/). Candidates 2 and 3 remain future options, not current work.
 
 Actual Beijing samples are recorded in [`beijing-plan-samples.md`](beijing-plan-samples.md). The important finding is that the observed 图则 are **A3/A2 landscape sheets with a top title bar and a right-hand information column**, not A1 engineering sheets with a bottom title block.
 

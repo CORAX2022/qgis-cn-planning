@@ -74,7 +74,7 @@ The public register records names, editions, issuers, validity, jurisdiction, of
 - [Standards library guide](standards/README.md)
 - [Background user-needs note](docs/user-needs-background.md) — not a product definition and not a teaching-template plan.
 
-The first template's drawing type, paper size, orientation, and information layout are **not predetermined**. They will be selected through a依据卡 and the project owner's decision, after the relevant standards and rules are recorded.
+The first template family is now selected as a **Beijing control-plan 图则**, produced at **A3 and A2 landscape**. The layout shells are in [`templates/beijing/`](templates/beijing/). The exact title-bar field widths, information-column proportions, and table/inset treatment remain subject to review.
 
 ## Getting started
 

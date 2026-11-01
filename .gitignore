@@ -55,3 +55,4 @@ Thumbs.db
 # Local standards originals and path index
 standards/_local/
 
+templates/**/build.log
