@@ -1,6 +1,8 @@
-# Curriculum coverage matrix
+# Background: professional course coverage
 
-This document checks the resource taxonomy against Chinese urban and rural planning curricula at undergraduate and graduate levels. It is a design reference, not a claim that every course needs a dedicated template.
+This is a **background user-needs note**, not a product definition and not a plan for teaching templates. It records the professional course clusters that may use the library, so that resource gaps can be identified without turning the product into a simplified teaching version.
+
+The product is a standards-backed QGIS resource library. Course names are used only to check coverage of professional user needs; they are not written into formal templates, and they do not determine the first template.
 
 ## Sources reviewed
 

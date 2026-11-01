@@ -1,18 +1,20 @@
 # qgis-cn-planning
 
-Open, reusable QGIS styles and layout templates for Chinese planning practice.
+Open standards register and reusable QGIS styles, symbols, and layout templates for Chinese planning practice.
 
-**Status: pre-alpha / project baseline. No public release yet.**
+**Status: pre-alpha / standards-first baseline. No public release yet.**
 
 ## Why this project
 
 Chinese planning drawings are rich in locally specific conventions: land-use colours, zoning symbols, title blocks, figure numbering, north arrows, scale bars, legend order, and sheet composition. Much of this knowledge is locked inside individual institutes, CAD templates, or proprietary ArcGIS projects.
 
-This project is a clean-room effort to turn public standards and common practice into reusable QGIS resources that can be installed, inspected, modified, and redistributed under clear licences.
+This project is a clean-room effort to turn public standards and common practice into a traceable standards register and reusable QGIS resources that can be installed, inspected, modified, and redistributed under clear licences.
+
+The project starts with the standards record: what document applies, which edition, which clause, what it requires, and whether the original can be obtained and redistributed. QGIS styles and layouts are implemented only after that evidence is recorded.
 
 ## Scope
 
-The library covers three initial domains:
+The resource library covers three initial domains:
 
 - **Village and town planning** — village classification, settlement systems, land layout, public facilities, roads, industry, municipal infrastructure.
 - **Territorial spatial planning** — three zones and three lines, planning zones, land-use classification, transport, ecological protection and restoration.
@@ -22,19 +24,20 @@ The v0.1.0 baseline also includes a **Beijing local adaptation profile** and a n
 
 ## Who this is for
 
-- Planning practitioners who need a reproducible QGIS starting point.
-- Teachers and students who need documented, inspectable cartographic conventions.
+- Planning practitioners who need a reproducible, standards-backed QGIS starting point.
 - Researchers who need consistent symbols and layouts for comparative work.
+- Learners who need documented, inspectable cartographic conventions without a simplified teaching-only version.
 - QGIS users who want Chinese planning styles without rebuilding them from scratch.
 
 ## What this repository will contain
 
 ```text
-docs/                 Project scope, standards, curriculum coverage, release policy
+standards/            Public register, rules, mappings, and source-status notes
+docs/                 Project scope, release policy, and background notes
 styles/               QGIS layer styles (.qml) and style-library exports
 symbols/              SVG markers and fill symbols
-templates/            QGIS print layouts (.qpt) for A0–A3 sheets
-examples/             Small, licence-clear reference projects
+templates/            QGIS print layouts (.qpt); paper sizes selected per template
+examples/             Small, licence-clear reference projects for validation only
 tools/                Install, validate and export scripts
 tests/                Validation and regression checks
 .github/              Issue and pull-request templates
@@ -63,9 +66,15 @@ The project tracks, but does not reproduce, documents including:
 
 See [`docs/standards-baseline.md`](docs/standards-baseline.md) for status, scope, and citation rules.
 
-## Curriculum coverage
+## Standards library
 
-The resource taxonomy is checked against Chinese urban and rural planning curricula at undergraduate and graduate levels. See [`docs/curriculum-coverage.md`](docs/curriculum-coverage.md) for the course-to-resource matrix and current gaps.
+The public register records names, editions, issuers, validity, jurisdiction, official sources, retrieval status, redistribution status, and intended use. Rules extracted from obtained texts live in `standards/rules/`; mappings to future QGIS resources live in `standards/mappings/`.
+
+- [Standards register](standards/register.csv)
+- [Standards library guide](standards/README.md)
+- [Background user-needs note](docs/user-needs-background.md) — not a product definition and not a teaching-template plan.
+
+The first template's drawing type, paper size, orientation, and information layout are **not predetermined**. They will be selected through a依据卡 and the project owner's decision, after the relevant standards and rules are recorded.
 
 ## Getting started
 

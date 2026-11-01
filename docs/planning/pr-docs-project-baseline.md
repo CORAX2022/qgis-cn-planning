@@ -13,7 +13,7 @@ This PR establishes the public project baseline for `qgis-cn-planning`:
 
 - project scope and public/private boundary;
 - standards baseline and citation rules;
-- curriculum coverage matrix for village/town planning, territorial spatial planning, and heritage conservation;
+- user-needs background note and standards library entry points;
 - contribution and review rules;
 - licence-status record and third-party notices;
 - release policy and versioning;

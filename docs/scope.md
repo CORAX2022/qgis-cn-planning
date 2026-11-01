@@ -4,23 +4,24 @@
 
 Chinese planning teams routinely rebuild the same cartographic resources: land-use colours, zoning symbols, road hierarchies, facility markers, title blocks, north arrows, scale bars, and legend structures. The knowledge is often embedded in institute CAD templates, ArcGIS projects, or individual QGIS profiles and is difficult to inspect, compare, or reuse.
 
-The result is duplicated work, inconsistent drawings, and a steep entry barrier for small teams, teachers, and students who use QGIS.
+The result is duplicated work, inconsistent drawings, and a steep entry barrier for small teams and independent practitioners who use QGIS.
 
 ## Goal
 
-Create a public, reusable QGIS resource library for Chinese planning practice that is:
+Create a public, reusable **standards register and QGIS resource library** for Chinese planning practice that is:
 
 - **Inspectable** — text-based sources wherever practical.
+- **Traceable** — each resource points to a registered standard, a local profile, or a recorded design decision.
+- **Evidence-first** — standards metadata, source status, and rules are recorded before implementation.
 - **Installable** — a documented path into a QGIS profile.
-- **Composable** — styles, symbols, layouts, and examples can be used separately.
-- **Traceable** — each resource points to a standard, a local profile, or a recorded design decision.
+- **Composable** — styles, symbols, layouts, and validation examples can be used separately.
 - **Licence-clear** — code, content, data, and third-party assets are distinguished.
 
 ## Audiences
 
 - Planning practitioners producing statutory and non-statutory drawings.
-- Planning educators and students who need documented conventions.
 - Researchers comparing plans and producing publication graphics.
+- Learners who need documented, inspectable conventions, not a simplified teaching-only version.
 - QGIS users who need Chinese planning resources without a proprietary stack.
 
 ## Domains in scope
@@ -39,7 +40,19 @@ Historic towns and villages, traditional villages, protected areas and buffer zo
 
 ### Cross-cutting resources
 
-Layout templates, Chinese typography, legend construction, scale bars, north arrows, sheet numbering, validation tools, and documentation.
+Standards metadata, clause-level rule extraction, layout templates, Chinese typography, legend construction, scale bars, north arrows, sheet numbering, validation tools, and documentation.
+
+### Standards foundation
+
+Before a style or template is implemented, the project records:
+
+- the standard's identity, edition, issuer, validity, and jurisdiction;
+- whether the original text has been obtained and read;
+- whether the original may be redistributed;
+- the clause-level rule, parameter, unit, and condition;
+- whether the rule is mandatory, recommended, or a project design decision.
+
+The public register does not contain local machine paths or restricted files. A separate local index, excluded from version control, records source locations and checksums for local reading.
 
 ## Out of scope for v0.1.0
 
@@ -86,9 +99,9 @@ A new user can:
 
 1. Clone the repository.
 2. Read a quick-start guide and install the resources into a QGIS profile.
-3. Open an A1 layout template and see a complete Chinese title block.
-4. Apply at least one land-use style and one planning-zone style.
-5. Open a small reference project and reproduce a sheet.
+3. Open the first layout template selected through a依据卡 and confirm that its drawing type, paper size, orientation, title block, and information layout match the recorded decision.
+4. Apply at least one land-use style and one planning-zone style whose fields and values are traceable to the register.
+5. Open a small validation project and reproduce a sheet.
 6. Run a validation script that reports missing fonts, SVG paths, page sizes, and XML errors.
 7. Understand the licence status of code, content, data, and third-party assets.
 
@@ -101,3 +114,5 @@ The release also needs a manifest, checksums, tested QGIS versions, and a change
 - Which Beijing profile elements are mandatory versus illustrative.
 - Whether sample data can be public or must be synthetic.
 - How to handle QGIS 3.40 LTR and 4.x format differences.
+- **First template:** drawing type, paper size, orientation, and information layout are deliberately undecided until the standards evidence and user choice are recorded.
+- **Title block:** the exact dimensions depend on a title-block standard that has not yet been obtained in full; do not invent dimensions.

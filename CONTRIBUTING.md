@@ -24,8 +24,8 @@ Use a type prefix and a concrete summary:
 
 ```text
 docs: define project scope and Beijing adaptation basis
-feat: add village land-use teaching styles
-fix: correct A1 title-block field alignment
+feat: add village land-use styles
+fix: correct title-block field alignment
 chore: add issue and pull-request templates
 ```
 
