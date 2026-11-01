@@ -1,0 +1,53 @@
+# Local execution records and private material
+_archive/
+_preview/
+.local/
+private/
+*.local.*
+
+# Student/assignment outputs and source data
+*.pdf
+*.doc
+*.docx
+*.ppt
+*.pptx
+*.xls
+*.xlsx
+
+# QGIS project data and caches
+*.qgz
+*.qgs~
+*.gpkg
+*.gpkg-shm
+*.gpkg-wal
+*.shp
+*.shx
+*.dbf
+*.prj
+*.cpg
+*.tif
+*.tiff
+*.img
+*.ecw
+*.mbtiles
+
+# QGIS user configuration / caches
+.qgis/
+.qgis2/
+.qgis3/
+__pycache__/
+*.pyc
+
+# Editor and OS files
+.vscode/
+.idea/
+*.swp
+*.bak
+.DS_Store
+Thumbs.db
+
+# Archives and temporary exports
+*.zip
+*.7z
+*.rar
+*.tmp
