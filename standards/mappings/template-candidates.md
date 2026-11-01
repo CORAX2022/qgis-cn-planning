@@ -2,46 +2,51 @@
 
 No template is selected in this round. These are candidates for a later依据卡 and user decision. Paper size, orientation, and information layout are deliberately not fixed.
 
-## Candidate 1 — Beijing village planning sheet
+Actual Beijing samples are recorded in [`beijing-plan-samples.md`](beijing-plan-samples.md). The important finding is that the observed 图则 are **A3/A2 landscape sheets with a top title bar and a right-hand information column**, not A1 engineering sheets with a bottom title block.
 
-- **Purpose:** A village plan sheet for Beijing, for example the village-area existing-condition map, village-area land-use plan, or village-area spatial control zoning map.
-- **Basis completeness:** Strongest of the three.
-  - `BJ-VILLAGE-GUIDE-2019` is obtained and read; it lists the required labels, the required drawing set, content requirements, layer prefixes, and representative RGB values.
-  - CJJ/T 97-2003 supplies general drawing rules and sheet-size/text-height values.
-  - SD-MAP-2019 supplies additional layout logic, but it is a draft and not Beijing.
+## Candidate 1 — Beijing control-plan 图则 (street/block level)
+
+- **Purpose:** A control-plan 图则 for a street/block unit, with a main map, legend, control indicators, and inset maps.
+- **Basis completeness:** Medium.
+  - Actual layout evidence: P-002 怀柔控规 p.37 (A3, top title bar across the sheet, main map left, legend middle, three inset maps right).
+  - `BJ-DB11-1948-2021` is registered but not yet read; the 2013 `DB11/T 997-2013` is referenced by some issued plans but is not confirmed current.
+  - CJJ/T 97-2003 supplies general drawing rules.
+- **Known requirements:** project/plan name, “图则” label, sheet number, main map, legend, control indicator table, north arrow/scale, notes.
+- **Still to decide:** A3 or A2; portrait/landscape (observed landscape); single sheet vs set; exact title-bar fields; right-column width; whether to include inset maps; table columns; legend order.
+- **Why consider it first:** it has the strongest **layout** evidence from an actual Beijing control-plan book.
+
+## Candidate 2 — Beijing village planning sheet
+
+- **Purpose:** A village plan sheet, for example the village-area existing-condition map, land-use plan, or spatial control zoning map.
+- **Basis completeness:** Medium-high for content, lower for frame.
+  - `BJ-VILLAGE-GUIDE-2019` is obtained and read; it lists required labels, the required drawing set, content requirements, layer prefixes, and representative RGB values.
+  - P-004 安乐村村庄规划 is an A3 presentation, not a statutory 图则; it shows paired maps and legends but no formal title block.
+  - CJJ/T 97-2003 supplies general drawing rules.
 - **Known requirements:** project name, drawing name, north arrow, scale, legend, drawing date, planning/design unit, drafter, reviewer, approver; three required village maps; layer prefixes; representative land-use and five-line colours.
-- **Still to decide:** which of the three required village maps is first; sheet size; orientation; single-sheet vs multi-sheet; title-block field layout; information zones; map scale; legend position; whether to use the 2019 RGB values or wait for a current edition.
-- **Why consider it first:** it has the most complete obtained evidence and is directly within the village planning domain. It should not be treated as current until the 2019 guide's revision status and its references to DB11/996-2013 and DB11/T 997-2013 are checked.
+- **Still to decide:** which of the three required maps is first; A3 or another size; orientation; single sheet vs set; title-bar/header design; information zones; legend position; whether to use the 2019 RGB values or wait for a current edition.
+- **Why consider it:** it has the strongest **content** evidence and is directly within the village planning domain.
 
-## Candidate 2 — Beijing township territorial spatial master plan sheet
+## Candidate 3 — Beijing township territorial spatial master plan sheet
 
 - **Purpose:** A township-level territorial spatial plan sheet for Beijing.
-- **Basis completeness:** Partial.
+- **Basis completeness:** Lower.
   - `BJ-DB11-1949-2021` is registered but the text is not yet obtained or read.
-  - CJJ/T 97-2003 supplies general drawing rules.
-  - SD-MAP-2019 supplies a worked provincial layout logic, but it is a draft and not Beijing.
+  - No public sample of a Beijing township master-plan sheet has been analysed yet.
+  - CJJ/T 97-2003 supplies general drawing rules; the Shandong guide supplies only an analogical provincial layout.
 - **Known requirements:** figure title, map boundary, north arrow/wind rose, scale, legend, signature, date, sheet ordering, text-height ranges, paper-family values from CJJ.
-- **Still to decide:** sheet size, orientation, single-sheet vs multi-sheet set, title-block field layout, information zones, map scale, legend position, and whether the first sheet is a status map or a planning-structure map.
-- **Why consider it:** it is the core Beijing township product, but the Beijing township standard is not yet read; the village guide is not a substitute.
+- **Still to decide:** sheet size, orientation, single vs multi-sheet, title-bar layout, information zones, map scale, legend position.
+- **Why consider it:** it is the core Beijing township product, but the specific standard and a representative sheet are missing.
 
-## Candidate 3 — historic building / historic district conservation sheet
+## Heritage note
 
-- **Purpose:** A heritage conservation sheet for a historic district, historic building group, or traditional village.
-- **Basis completeness:** Weakest of the three.
-  - The Beijing historic-city regulation is a legal/terminology source, not a drawing standard.
-  - `BJ-HIST-BUILDING-2024` is obtained and read at a high level; it lists the contents of a historic-building protection atlas, but not a complete drawing layout.
-  - `GB/T 50357-2018` is registered but not read.
-  - Protection boundaries, buffer zones, and building categories need separate legal and technical sources.
-- **Known requirements:** general drawing elements from CJJ; historic-building atlas contents from the 2024 work rules.
-- **Still to decide:** protection-object type, legal boundary source, classification of buildings, sheet size, orientation, title-block layout, and whether the sheet is an inventory, a protection framework, or a design guidance sheet.
-- **Why consider it:** heritage is an explicit project domain, but the evidence base is not ready for a first template.
+Heritage conservation remains a project domain (Issue #6), but it is not one of the first three candidates because the drawing basis is weaker: `GB/T 50357-2018` is not read, and the Beijing historic-building work rules describe atlas content rather than a complete drawing layout.
 
 ## Recommended sequence
 
-1. Check whether `BJ-VILLAGE-GUIDE-2019` has a current revision and whether DB11/996-2013 and DB11/T 997-2013 are still current.
-2. If the village guide is current enough, prepare a依据卡 for Candidate 1 and select one of its three required maps.
-3. Keep Candidate 2 as the next Beijing profile after `BJ-DB11-1949-2021` is obtained and read.
-4. Do not start Candidate 3 until the heritage conservation standard and the legal boundary source are obtained.
+1. If the goal is a **图则** first, Candidate 1 has the strongest layout evidence; obtain `BJ-DB11-1948-2021` and confirm the current status of `DB11/T 997-2013` before fixing rules.
+2. If the goal is **village planning** first, Candidate 2 has the strongest content evidence; confirm whether the 2019 guide has a current revision.
+3. Candidate 3 waits for `BJ-DB11-1949-2021` and a representative township sheet.
+4. Heritage waits for the conservation standard and legal boundary sources.
 
 This is a sequencing recommendation, not a template decision. The first template's paper size and drawing type still require the project owner's choice.
 
@@ -52,12 +57,13 @@ Drawing type:
 Region and profile:
 Planning level and object:
 Standards and editions:
+Sample layout evidence:
 Rules with parameters:
 Rules not specified by the standard:
 Information layout:
 Paper size and orientation:
 Scale and extent:
-Title-block fields:
+Title-bar/title-block fields:
 Legend and symbol requirements:
 Known conflicts:
 User decisions needed:

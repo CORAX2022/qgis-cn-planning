@@ -29,6 +29,8 @@ This directory links extracted rules to future QGIS resources and records templa
 
 See [`template-candidates.md`](template-candidates.md). No candidate has been selected.
 
+Actual public Beijing 图则 samples are recorded in [`beijing-plan-samples.md`](beijing-plan-samples.md). They show an A3/A2 landscape family with a top title bar and a right information column, not an A1 engineering sheet.
+
 ## Mapping rule
 
 Each implementation must be traceable to:
