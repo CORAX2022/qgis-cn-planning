@@ -33,5 +33,5 @@ Planned first public baseline. Not released.
 - Load, render, export, and compatibility validation.
 - Documentation, licence decision, release manifest, and checksums.
 
-[Unreleased]: https://github.com/OWNER/qgis-cn-planning/compare/v0.1.0...HEAD
-[0.1.0]: https://github.com/OWNER/qgis-cn-planning/releases/tag/v0.1.0
+[Unreleased]: https://github.com/CORAX2022/qgis-cn-planning/compare/v0.1.0...HEAD
+[0.1.0]: https://github.com/CORAX2022/qgis-cn-planning/releases/tag/v0.1.0
