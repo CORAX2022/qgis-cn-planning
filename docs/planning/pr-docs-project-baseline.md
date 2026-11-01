@@ -21,7 +21,7 @@ No styles, templates, symbols, sample data, or PDFs are added in this PR.
 
 ## Related issue
 
-Closes #TBD (create the baseline issue after remote setup).
+Refs #1. This PR establishes the baseline documentation; Issue #1 remains open for the Beijing profile deliverable.
 
 ## Type of change
 
