@@ -1,0 +1,8 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Project scope and standards
+    url: https://github.com/OWNER/qgis-cn-planning/blob/main/docs/scope.md
+    about: Read the scope and standards baseline before opening a resource request.
+  - name: Contributing guide
+    url: https://github.com/OWNER/qgis-cn-planning/blob/main/CONTRIBUTING.md
+    about: Branch naming, resource requirements, and review checks.

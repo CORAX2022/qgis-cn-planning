@@ -1,0 +1,21 @@
+* text=auto eol=lf
+
+*.md text
+*.qml text
+*.qpt text
+*.qgs text
+*.xml text
+*.svg text
+*.csv text
+*.py text
+*.yml text
+*.yaml text
+*.json text
+
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.pdf binary
+*.gpkg binary
+*.tif binary
+*.tiff binary

@@ -1,0 +1,37 @@
+# Changelog
+
+All notable changes to this project will be documented in this file.
+
+The format follows [Keep a Changelog](https://keepachangelog.com/en/1.1.0/), and the project intends to use [Semantic Versioning](https://semver.org/).
+
+## [Unreleased]
+
+### Added
+
+- Initial repository baseline: README, `.gitignore`, contribution rules, licence-status record, third-party notice, scope, standards baseline, curriculum coverage matrix, release policy, issue templates, and pull-request template.
+- Draft v0.1.0 milestone and issue plan.
+
+### Changed
+
+- Project management moved to Git and GitHub as the authoritative record for source files and change history.
+
+### Fixed
+
+- Nothing yet.
+
+## [0.1.0] - TBD
+
+Planned first public baseline. Not released.
+
+### Planned
+
+- National baseline layout template for A1 sheets.
+- Chinese title block with project, drawing, sheet, scale, designer, drafter, checker, date, and organisation fields.
+- Initial styles for land use, planning zones, three zones and three lines, roads, water, settlements, and facilities.
+- Three domain packs: village/town planning, territorial spatial planning, heritage conservation.
+- Beijing adaptation profile.
+- Load, render, export, and compatibility validation.
+- Documentation, licence decision, release manifest, and checksums.
+
+[Unreleased]: https://github.com/OWNER/qgis-cn-planning/compare/v0.1.0...HEAD
+[0.1.0]: https://github.com/OWNER/qgis-cn-planning/releases/tag/v0.1.0
